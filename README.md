@@ -16,16 +16,16 @@
   <a href="https://github.com/brans-t">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&color=0D1117&labelColor=0D1117"/>
   </a>
-  <a href="https://linkedin.com/in/brans-t">
+  <!-- <a href="https://linkedin.com/in/brans-t">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://twitter.com/brans-t">
+  </a> -->
+  <!-- <a href="https://twitter.com/brans-t">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
-  </a>
+  </a> -->
   <a href="mailto:zhzgame11122@163.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-  <a href="https://yourwebsite.com">
+  <a href="https://brans-t.github.io/">
     <img src="https://img.shields.io/badge/Website-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white"/>
   </a>
 </p>
@@ -200,22 +200,22 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
   <tr>
     <td align="center" width="25%">
       <a href="https://github.com/Hz-Knowledge-Library">
-        <img src="https://img.shields.io/badge/Hz%20Knowledge%20Library-Member-blue?style=for-the-badge&logo=github" width="200"/>
+        <img src="https://img.shields.io/badge/Hz%20Knowledge%20Library-Founder-gold?style=for-the-badge&logo=github" width="200"/>
       </a>
     </td>
     <td align="center" width="25%">
       <a href="https://github.com/Quantum-Transport-Computing">
-        <img src="https://img.shields.io/badge/Quantum%20Transport-Member-purple?style=for-the-badge&logo=github" width="200"/>
+        <img src="https://img.shields.io/badge/Quantum%20Transport-Founder-gold?style=for-the-badge&logo=github" width="200"/>
       </a>
     </td>
     <td align="center" width="25%">
       <a href="https://github.com/NoosphereHub">
-        <img src="https://img.shields.io/badge/NoosphereHub-Member-green?style=for-the-badge&logo=github" width="200"/>
+        <img src="https://img.shields.io/badge/NoosphereHub-Founder-gold?style=for-the-badge&logo=github" width="200"/>
       </a>
     </td>
     <td align="center" width="25%">
       <a href="https://github.com/APINN-lab">
-        <img src="https://img.shields.io/badge/APINN%20Lab-Contributor-orange?style=for-the-badge&logo=github" width="200"/>
+        <img src="https://img.shields.io/badge/APINN%20Lab-Founder-gold?style=for-the-badge&logo=github" width="200"/>
       </a>
     </td>
   </tr>

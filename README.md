@@ -13,16 +13,16 @@
 
 <!-- Social Badges with Glow Effect -->
 <p align="center">
-  <a href="https://github.com/yourusername">
+  <a href="https://github.com/brans-t">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white&color=0D1117&labelColor=0D1117"/>
   </a>
-  <a href="https://linkedin.com/in/yourusername">
+  <a href="https://linkedin.com/in/brans-t">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://twitter.com/yourusername">
+  <a href="https://twitter.com/brans-t">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
   </a>
-  <a href="mailto:your.email@example.com">
+  <a href="mailto:zhzgame11122@163.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
   <a href="https://yourwebsite.com">
@@ -34,9 +34,9 @@
 
 <!-- Profile Views Counter with Animation -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=yourusername&label=Profile%20Views&color=00ff00&style=for-the-badge" alt="Profile views"/>
-  <img src="https://img.shields.io/github/followers/yourusername?label=Followers&style=for-the-badge&color=ff69b4" alt="followers"/>
-  <img src="https://img.shields.io/github/stars/yourusername?label=Stars&style=for-the-badge&color=ffd700" alt="stars"/>
+  <img src="https://komarev.com/ghpvc/?username=brans-t&label=Profile%20Views&color=00ff00&style=for-the-badge" alt="Profile views"/>
+  <img src="https://img.shields.io/github/followers/brans-t?label=Followers&style=for-the-badge&color=ff69b4" alt="followers"/>
+  <img src="https://img.shields.io/github/stars/brans-t?label=Stars&style=for-the-badge&color=ffd700" alt="stars"/>
 </p>
 
 </div>
@@ -85,10 +85,10 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
 
 ## 💻 Most Used Languages
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=donut&theme=radical&hide_border=true&bg_color=0D1117&title_color=00f7f7&text_color=ffffff&icon_color=00f7f7&langs_count=8&card_width=400" alt="Top Languages"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=brans-t&layout=donut&theme=radical&hide_border=true&bg_color=0D1117&title_color=00f7f7&text_color=ffffff&icon_color=00f7f7&langs_count=8&card_width=400" alt="Top Languages"/>
 
 <!-- Alternative Compact Layout -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00f7f7&text_color=ffffff&langs_count=10" width="100%" alt="Language Stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=brans-t&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00f7f7&text_color=ffffff&langs_count=10" width="100%" alt="Language Stats"/>
 
 </div>
 
@@ -173,12 +173,12 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
 
 <!-- Main Stats Cards -->
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00f7f7&text_color=ffffff&icon_color=00f7f7"/>
-  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=yourusername&theme=radical&hide_border=true&background=0D1117&ring=00f7f7&fire=ff6e96&currStreakLabel=00f7f7"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=brans-t&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00f7f7&text_color=ffffff&icon_color=00f7f7"/>
+  <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=brans-t&theme=radical&hide_border=true&background=0D1117&ring=00f7f7&fire=ff6e96&currStreakLabel=00f7f7"/>
 </p>
 
 <!-- Contribution Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=yourusername&custom_title=Contribution%20Graph&bg_color=0D1117&color=00f7f7&line=00f7f7&point=ffffff&area=true&hide_border=true" width="100%"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=brans-t&custom_title=Contribution%20Graph&bg_color=0D1117&color=00f7f7&line=00f7f7&point=ffffff&area=true&hide_border=true" width="100%"/>
 
 <!-- Detailed Stats -->
 <details open>
@@ -187,17 +187,17 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
 <br/>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=yourusername&theme=radical" width="100%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=brans-t&theme=radical" width="100%"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=yourusername&theme=radical" width="48%"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=yourusername&theme=radical" width="48%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=brans-t&theme=radical" width="48%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=brans-t&theme=radical" width="48%"/>
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=yourusername&theme=radical" width="48%"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=yourusername&theme=radical" width="48%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=brans-t&theme=radical" width="48%"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=brans-t&theme=radical" width="48%"/>
 </p>
 
 </details>
@@ -217,7 +217,7 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
 ## 🏆 GitHub Achievements
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=yourusername&theme=radical&no-frame=true&no-bg=false&margin-w=4&row=2&column=4" width="100%"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=brans-t&theme=radical&no-frame=true&no-bg=false&margin-w=4&row=2&column=4" width="100%"/>
 </p>
 
 </div>
@@ -447,13 +447,13 @@ I'm always excited to collaborate on interesting projects, discuss new technolog
 </p>
 
 <p>
-  <a href="mailto:your.email@example.com">
+  <a href="mailto:zhzgame11122@163.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-  <a href="https://linkedin.com/in/yourusername">
+  <a href="https://linkedin.com/in/brans-t">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
-  <a href="https://twitter.com/yourusername">
+  <a href="https://twitter.com/brans-t">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
   </a>
   <a href="https://discord.gg/yourserver">
@@ -480,13 +480,13 @@ I'm always excited to collaborate on interesting projects, discuss new technolog
 
 <!-- Snake eating contribution graph -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/yourusername/yourusername/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/brans-t/brans-t/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </div>
 
 ---
 
 <div align="center">
-  <sub>Built with ❤️ by <a href="https://github.com/yourusername">@yourusername</a></sub>
+  <sub>Built with ❤️ by <a href="https://github.com/brans-t">@brans-t</a></sub>
   <br/>
   <sub>Last updated: <i>Automatically via GitHub Actions</i></sub>
 </div>

@@ -1,0 +1,99 @@
+name: Auto Update Profile
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # 每天 00:00 UTC
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      
+      # 更新最近活动
+      - name: Update recent activity
+        uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          MAX_LINES: 10
+      
+      # 设置 Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: pip install requests
+      
+      # 更新技能进度条
+      - name: Update skills
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - << 'PYTHON_SCRIPT'
+          import requests, os
+          from collections import defaultdict
+          
+          username = os.environ.get('GITHUB_REPOSITORY_OWNER', 'brans-t')
+          token = os.environ.get('GITHUB_TOKEN')
+          
+          headers = {'Authorization': f'token {token}'} if token else {}
+          response = requests.get(
+              f'https://api.github.com/users/{username}/repos',
+              headers=headers,
+              params={'per_page': 100, 'type': 'owner'}
+          )
+          
+          language_bytes = defaultdict(int)
+          for repo in response.json():
+              if not repo.get('fork', False):
+                  lang_url = repo.get('languages_url')
+                  if lang_url:
+                      lang_resp = requests.get(lang_url, headers=headers)
+                      if lang_resp.status_code == 200:
+                          for lang, bytes in lang_resp.json().items():
+                              language_bytes[lang] += bytes
+          
+          total = sum(language_bytes.values())
+          languages = [(lang, round(bytes/total*100, 1)) 
+                      for lang, bytes in language_bytes.items()]
+          languages.sort(key=lambda x: x[1], reverse=True)
+          
+          def bar(pct): return '█'*int(pct/5) + '░'*(20-int(pct/5))
+          
+          output = "```ascii\n"
+          for lang, pct in languages[:9]:
+              output += f"{lang:<12} {bar(pct)}   {pct:>3.0f}% {bar(pct)[:19]}\n"
+          output += "```"
+          
+          with open('README.md', 'r', encoding='utf-8') as f:
+              content = f.read()
+          
+          start = content.find('```ascii', content.find('## 💡 Skills'))
+          if start != -1:
+              end = content.find('```', start + 8) + 3
+              with open('README.md', 'w', encoding='utf-8') as f:
+                  f.write(content[:start] + output + content[end:])
+              print(f"✅ Updated {len(languages)} languages")
+          PYTHON_SCRIPT
+      
+      # 提交更改
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --staged --quiet || git commit -m "🤖 Auto-update profile"
+          git push

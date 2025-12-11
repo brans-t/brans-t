@@ -178,7 +178,7 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
 </p>
 
 <!-- Contribution Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=brans-t&custom_title=Contribution%20Graph&bg_color=0D1117&color=00f7f7&line=00f7f7&point=ffffff&area=true&hide_border=true" width="100%"/>
+<img src="https://github-readme-activity-graph.cyclic.app/graph?username=brans-t&theme=react-dark&bg_color=0D1117&color=00f7f7&line=00f7f7&point=ffffff&area=true&hide_border=true" width="100%"/>
 
 <!-- Detailed Stats -->
 <details open>

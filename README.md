@@ -52,20 +52,20 @@
 
 ```javascript
 const developer = {
-    name: "Your Name",
-    location: "🌍 Earth • Your City",
+    name: "brans-t",
+    location: "🌍 Earth • China",
     role: "Full Stack Developer & AI Researcher",
-    code: ["TypeScript", "Python", "Go", "Rust", "C++"],
+    code: ["C", "Python", "Wolfram Mathematica", "Matlab", "Julia"],
     technologies: {
-        frontend: ["React", "Next.js", "Vue.js", "Three.js", "Tailwind"],
-        backend: ["Node.js", "FastAPI", "Django", "Express", "GraphQL"],
-        ai_ml: ["TensorFlow", "PyTorch", "Scikit-learn", "Hugging Face"],
-        database: ["PostgreSQL", "MongoDB", "Redis", "Elasticsearch"],
-        cloud: ["AWS", "Docker", "Kubernetes", "Terraform"],
-        tools: ["Git", "Linux", "CI/CD", "Nginx", "WebSocket"]
+        // frontend: ["React", "Next.js", "Vue.js", "Three.js", "Tailwind"],
+        backend: ["Django"],
+        ai_ml: ["PyTorch", "Scikit-learn"],
+        database: ["MongoDB"],
+        cloud: ["Docker"],
+        tools: ["Git", "Linux"]
     },
     currentFocus: "Building AI-powered applications & Quantum Computing",
-    communities: ["Hz Knowledge Library", "APINN Lab", "amair-lab"],
+    communities: ["Hz Knowledge Library", "APINN Lab"],
     funFact: "I turn coffee ☕ into code 💻 and bugs 🐛 into features ✨"
 };
 
@@ -80,20 +80,6 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
 
 <br/>
 
-<!-- Language Stats with Animation -->
-<div align="center">
-
-## 💻 Most Used Languages
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=brans-t&layout=donut&theme=radical&hide_border=true&bg_color=0D1117&title_color=00f7f7&text_color=ffffff&icon_color=00f7f7&langs_count=8&card_width=400" alt="Top Languages"/>
-
-<!-- Alternative Compact Layout -->
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=brans-t&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00f7f7&text_color=ffffff&langs_count=10" width="100%" alt="Language Stats"/>
-
-</div>
-
-<br/>
-
 <!-- Tech Stack with Icons -->
 <div align="center">
 
@@ -102,7 +88,7 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
 ### 👨‍💻 Programming Languages
 
 <p>
-  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <!-- <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"/> -->
   <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue"/>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
   <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white"/>
@@ -111,7 +97,7 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
   <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white"/>
 </p>
 
-### 🎨 Frontend Development
+<!-- ### 🎨 Frontend Development
 
 <p>
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
@@ -120,19 +106,19 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
   <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white"/>
   <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"/>
-</p>
+</p> -->
 
 ### ⚙️ Backend Development
 
 <p>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/>
+  <!-- <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/> -->
+  <!-- <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white"/> -->
   <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green"/>
-  <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/>
+  <!-- <img src="https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white"/> -->
+  <!-- <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white"/> -->
+  <!-- <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/> -->
+  <!-- <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/> -->
 </p>
 
 ### 🤖 AI & Machine Learning
@@ -141,7 +127,7 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white"/>
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white"/>
   <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+  <!-- <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/> -->
   <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
   <img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
 </p>
@@ -150,11 +136,11 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
 
 <p>
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
+  <!-- <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/> -->
+  <!-- <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/> -->
   <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white"/>
+  <!-- <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white"/> -->
 </p>
 
 </div>
@@ -171,14 +157,10 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
 
 ## 📊 GitHub Analytics
 
-<!-- Main Stats Cards -->
+<!-- Main Stats Cards - 使用备用实例 -->
 <p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=brans-t&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00f7f7&text_color=ffffff&icon_color=00f7f7"/>
   <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=brans-t&theme=radical&hide_border=true&background=0D1117&ring=00f7f7&fire=ff6e96&currStreakLabel=00f7f7"/>
 </p>
-
-<!-- Contribution Graph -->
-<img src="https://github-readme-activity-graph.cyclic.app/graph?username=brans-t&theme=react-dark&bg_color=0D1117&color=00f7f7&line=00f7f7&point=ffffff&area=true&hide_border=true" width="100%"/>
 
 <!-- Detailed Stats -->
 <details open>
@@ -208,21 +190,6 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
 
 <!-- Animated Divider -->
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-<br/>
-
-<!-- Achievements Section -->
-<div align="center">
-
-## 🏆 GitHub Achievements
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=brans-t&theme=radical&no-frame=true&no-bg=false&margin-w=4&row=2&column=4" width="100%"/>
-</p>
-
-</div>
-
-<br/>
 
 <!-- Organizations Section -->
 <div align="center">
@@ -268,7 +235,7 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
 <td width="50%">
 
 ### 🚀 Machine Learning Research
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Hz-Knowledge-Library&repo=Machine-Learning-Basic&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/Hz-Knowledge-Library/Machine-Learning-Basic)
+[![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=Hz-Knowledge-Library&repo=Machine-Learning-Basic&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/Hz-Knowledge-Library/Machine-Learning-Basic)
 
 **Technologies:** Python, TensorFlow, PyTorch  
 **Description:** Basic machine learning algorithms and implementations for research and education.
@@ -277,7 +244,7 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
 <td width="50%">
 
 ### 🔬 MOF Discovery
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=amair-lab&repo=MOF-discovery&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/amair-lab/MOF-discovery)
+[![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=amair-lab&repo=MOF-discovery&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/amair-lab/MOF-discovery)
 
 **Technologies:** Python, Quantum Computing  
 **Description:** Advanced materials discovery using AI and computational methods.
@@ -289,7 +256,7 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
 <td width="50%">
 
 ### 💻 Personal Website
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=brans-t&repo=brans-t.github.io&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/brans-t/brans-t.github.io)
+[![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=brans-t&repo=brans-t.github.io&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/brans-t/brans-t.github.io)
 
 **Technologies:** React, Next.js, Tailwind  
 **Description:** My personal portfolio and blog showcasing projects and writings.
@@ -298,10 +265,11 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
 <td width="50%">
 
 ### ✏️ Annotara
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=brans-t&repo=Annotara&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/brans-t/Annotara)
+[![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=brans-t&repo=Annotara&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/brans-t/Annotara)
 
 **Technologies:** TypeScript, React  
 **Description:** Intelligent annotation tool for research and documentation.
+
 
 </td>
 </tr>
@@ -356,38 +324,21 @@ JavaScript   █░░░░░░░░░░░░░░░░░░░     6%
 <br/>
 
 <!-- Blog & Articles -->
-<div align="center">
+<!-- <div align="center"> -->
 
-## 📝 Latest Blog Posts
+<!-- ## 📝 Latest Blog Posts -->
 
 <!-- BLOG-POST-LIST:START -->
-- 🚀 [Building Scalable Microservices with Go](https://yourblog.com)
+<!-- - 🚀 [Building Scalable Microservices with Go](https://yourblog.com)
 - 🤖 [Understanding Transformer Architecture in AI](https://yourblog.com)
 - ⚡ [Optimizing React Performance: A Deep Dive](https://yourblog.com)
 - 🔐 [Security Best Practices in Modern Web Apps](https://yourblog.com)
-- 🌐 [The Future of WebAssembly](https://yourblog.com)
+- 🌐 [The Future of WebAssembly](https://yourblog.com) -->
 <!-- BLOG-POST-LIST:END -->
 
-</div>
+<!-- </div> -->
 
-<br/>
-
-<!-- Current Goals -->
-<div align="center">
-
-## 🎯 2024 Goals
-
-- ✅ Master Rust and System Programming
-- 🔄 Contribute to 50+ Open Source Projects
-- 📚 Publish 30 Technical Articles
-- 🎓 Complete Advanced ML Certifications
-- 🚀 Launch 3 Production-Ready Projects
-- 🤝 Mentor 10+ Developers
-- 🌟 Reach 1000+ GitHub Stars
-
-</div>
-
-<br/>
+<!-- <br/> -->
 
 <!-- Fun Stuff -->
 <div align="center">
@@ -445,15 +396,15 @@ I'm always excited to collaborate on interesting projects, discuss new technolog
   <a href="mailto:zhzgame11122@163.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-  <a href="https://linkedin.com/in/brans-t">
+  <!-- <a href="https://linkedin.com/in/brans-t">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://twitter.com/brans-t">
+  </a> -->
+  <!-- <a href="https://twitter.com/brans-t">
     <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
-  </a>
-  <a href="https://discord.gg/yourserver">
-    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/>
-  </a>
+  </a> -->
+  <!-- <a href="https://discord.gg/yourserver"> -->
+    <!-- <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/> -->
+  <!-- </a> -->
 </p>
 
 <p>

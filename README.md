@@ -366,17 +366,17 @@ JavaScript   █░░░░░░░░░░░░░░░░░░░     6%
   <tr>
     <td>📚</td>
     <td><b>Reading</b></td>
-    <td>Exploring Sci-fi, Physics & Math books</td>
+    <td>Exploring Philosophy, Math, Physics & History books</td>
   </tr>
   <tr>
     <td>🎵</td>
     <td><b>Music Appreciation</b></td>
-    <td>Listening to Lo-fi, Classical, or Rock</td>
+    <td>Listening to Classical, Popular, or Rock</td>
   </tr>
   <tr>
     <td>🎹</td>
     <td><b>Playing Instruments</b></td>
-    <td>Practicing piano/guitar (练琴)</td>
+    <td>Practicing violin/guitar</td>
   </tr>
   <tr>
     <td>📸</td>
@@ -386,7 +386,7 @@ JavaScript   █░░░░░░░░░░░░░░░░░░░     6%
   <tr>
     <td>🕹️</td>
     <td><b>Gaming</b></td>
-    <td>Strategy and RPG titles</td>
+    <td>Story-rich, Adventure, and Building titles</td>
   </tr>
 </table>
 

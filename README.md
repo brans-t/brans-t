@@ -436,3 +436,21 @@ I'm always excited to collaborate on interesting projects, discuss new technolog
   <br/>
   <sub>Last updated: <i>Automatically via GitHub Actions</i></sub>
 </div>
+
+
+
+<div align="center">
+
+# 🌐 NEURAL CODE INTERFACE 🌐
+```ascii
+╔═══════════════════════════════════════════╗
+║  SYSTEM ONLINE | TRACKING ACTIVE          ║
+║  USER: brans-t | ACCESS: GRANTED          ║
+╚═══════════════════════════════════════════╝
+```
+
+<img src="https://raw.githubusercontent.com/brans-t/brans-t/output/cyberpunk-blue.svg" alt="Cyberpunk Snake" width="90%"/>
+
+*「 WELCOME TO THE MATRIX 」*
+
+</div>

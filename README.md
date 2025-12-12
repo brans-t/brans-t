@@ -258,7 +258,7 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
 <td width="50%">
 
 ### 🚀 Machine Learning Research
-[![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=Hz-Knowledge-Library&repo=Machine-Learning-Basic&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/Hz-Knowledge-Library/Machine-Learning-Basic)
+[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Hz-Knowledge-Library&repo=Machine-Learning-Basic&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/Hz-Knowledge-Library/Machine-Learning-Basic)
 
 **Technologies:** Python, TensorFlow, PyTorch  
 **Description:** Basic machine learning algorithms and implementations for research and education.

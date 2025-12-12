@@ -258,23 +258,29 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
 <td width="50%">
 
 ### 🚀 Machine Learning Research
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Hz-Knowledge-Library&repo=Machine-Learning-Basic&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/Hz-Knowledge-Library/Machine-Learning-Basic)
 
-<a href="https://github.com/Hz-Knowledge-Library/Machine-Learning-Basic" target="_blank">
-  <img src="https://socialify.git.ci/Hz-Knowledge-Library/Machine-Learning-Basic/image?language=1&name=1&owner=1&pattern=Formal&theme=Dark" alt="Machine Learning Basic Socialify Card" width="400"/>
-</a>
+[![Stars](https://img.shields.io/github/stars/Hz-Knowledge-Library/Machine-Learning-Basic?style=social)](https://github.com/Hz-Knowledge-Library/Machine-Learning-Basic)
+[![Forks](https://img.shields.io/github/forks/Hz-Knowledge-Library/Machine-Learning-Basic?style=social)](https://github.com/Hz-Knowledge-Library/Machine-Learning-Basic)
 
-**Technologies:** Python, TensorFlow, PyTorch  
-**Description:** Basic machine learning algorithms and implementations for research and education.
+Basic machine learning algorithms and implementations for research and education.
+
+**Technologies:** Python, TensorFlow, PyTorch
+
+[![View Repository](https://img.shields.io/badge/VIEW_REPOSITORY-00D9FF?style=for-the-badge&logo=github)](https://github.com/Hz-Knowledge-Library/Machine-Learning-Basic)
 
 </td>
 <td width="50%">
 
 ### 🔬 MOF Discovery
-[![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=amair-lab&repo=MOF-discovery&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/amair-lab/MOF-discovery)
 
-**Technologies:** Python, Quantum Computing  
-**Description:** Advanced materials discovery using AI and computational methods.
+[![Stars](https://img.shields.io/github/stars/amair-lab/MOF-discovery?style=social)](https://github.com/amair-lab/MOF-discovery)
+[![Forks](https://img.shields.io/github/forks/amair-lab/MOF-discovery?style=social)](https://github.com/amair-lab/MOF-discovery)
+
+Advanced materials discovery using AI and computational methods.
+
+**Technologies:** Python, Quantum Computing
+
+[![View Repository](https://img.shields.io/badge/VIEW_REPOSITORY-00FF00?style=for-the-badge&logo=github)](https://github.com/amair-lab/MOF-discovery)
 
 </td>
 </tr>
@@ -283,20 +289,29 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
 <td width="50%">
 
 ### 💻 Personal Website
-[![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=brans-t&repo=brans-t.github.io&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/brans-t/brans-t.github.io)
 
-**Technologies:** React, Next.js, Tailwind  
-**Description:** My personal portfolio and blog showcasing projects and writings.
+[![Stars](https://img.shields.io/github/stars/brans-t/brans-t.github.io?style=social)](https://github.com/brans-t/brans-t.github.io)
+[![Forks](https://img.shields.io/github/forks/brans-t/brans-t.github.io?style=social)](https://github.com/brans-t/brans-t.github.io)
+
+My personal portfolio and blog showcasing projects and writings.
+
+**Technologies:** React, Next.js, Tailwind
+
+[![View Repository](https://img.shields.io/badge/VIEW_REPOSITORY-FF00FF?style=for-the-badge&logo=github)](https://github.com/brans-t/brans-t.github.io)
 
 </td>
 <td width="50%">
 
 ### ✏️ Annotara
-[![Readme Card](https://github-readme-stats-git-masterrstaa-rickstaa.vercel.app/api/pin/?username=brans-t&repo=Annotara&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/brans-t/Annotara)
 
-**Technologies:** TypeScript, React  
-**Description:** Intelligent annotation tool for research and documentation.
+[![Stars](https://img.shields.io/github/stars/brans-t/Annotara?style=social)](https://github.com/brans-t/Annotara)
+[![Forks](https://img.shields.io/github/forks/brans-t/Annotara?style=social)](https://github.com/brans-t/Annotara)
 
+Intelligent annotation tool for research and documentation.
+
+**Technologies:** TypeScript, React
+
+[![View Repository](https://img.shields.io/badge/VIEW_REPOSITORY-FF6B35?style=for-the-badge&logo=github)](https://github.com/brans-t/Annotara)
 
 </td>
 </tr>

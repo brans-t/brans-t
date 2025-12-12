@@ -1,9 +1,14 @@
-name: Generate Snake Animation
+name: 🐍 Generate Contribution Snake
 
 on:
+  # 每6小时自动运行一次
   schedule:
     - cron: "0 */6 * * *"
+  
+  # 允许手动触发
   workflow_dispatch:
+  
+  # 每次推送到 main 分支时触发
   push:
     branches:
       - main
@@ -17,21 +22,37 @@ jobs:
       contents: write
     
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
       
-      - name: Generate snake
+      - name: 🐍 Generate snake animation
         uses: Platane/snk@v3
+        id: snake-gif
         with:
           github_user_name: ${{ github.repository_owner }}
+          
+          # 生成多种主题的 SVG
           outputs: |
             dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-light.svg?palette=github-light
+            dist/ocean-snake.svg?color_snake=#00D9FF&color_dots=#0969da,#54aeff,#0969da,#0550ae,#033d8b
+            dist/neon-snake.svg?color_snake=#FF00FF&color_dots=#ff00ff,#9d00ff,#6600ff,#3300ff,#0000ff
+            dist/forest-snake.svg?color_snake=#22c55e&color_dots=#166534,#15803d,#16a34a,#22c55e,#4ade80
+            dist/sunset-snake.svg?color_snake=#FF6B35&color_dots=#f59e42,#f7b267,#FF6B35,#c1121f,#780000
+            dist/rainbow-snake.svg?color_snake=#FF0080&color_dots=#9d4edd,#7209b7,#f72585,#FF0080,#ff006e
       
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3
+      - name: 📊 Show build status
+        run: |
+          echo "🎉 Snake animation generated successfully!"
+          echo "📁 Files created:"
+          ls -lh dist/
+      
+      - name: 🚀 Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
+          commit_message: "🐍 Update snake animations"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

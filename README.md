@@ -163,12 +163,14 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
 <div align="center">
 
 # 🌐 NEURAL CODE INTERFACE 🌐
-```ascii
+<p align="center">
+<pre>
 ╔═══════════════════════════════════════════╗
-║  SYSTEM ONLINE | TRACKING ACTIVE          ║
-║  USER: brans-t | ACCESS: GRANTED          ║
+║  SYSTEM ONLINE | TRACKING ACTIVE          ║
+║  USER: brans-t | ACCESS: GRANTED          ║
 ╚═══════════════════════════════════════════╝
-```
+</pre>
+</p>
 
   <!-- <img src="https://raw.githubusercontent.com/brans-t/brans-t/output/github-snake-dark.svg" alt="Snake animation" /> -->
   <img src="https://raw.githubusercontent.com/brans-t/brans-t/output/cyberpunk-blue.svg" alt="Cyberpunk Snake"/>

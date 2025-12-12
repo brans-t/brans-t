@@ -55,18 +55,18 @@ const developer = {
     name: "brans-t",
     location: "🌍 Earth • China",
     role: "Full Stack Developer & AI Researcher",
-    code: ["C", "Python", "Wolfram Mathematica", "Matlab", "Julia"],
+    code: ["Python", "Wolfram Mathematica", "Matlab", "Julia", "C"],
     technologies: {
         // frontend: ["React", "Next.js", "Vue.js", "Three.js", "Tailwind"],           //learning
-        backend: ["Django"],
+        // backend: ["Django"],                                                        //learning
         ai_ml: ["PyTorch", "Scikit-learn"],
-        database: ["MongoDB"],
+        // database: ["MongoDB"],
         cloud: ["Docker"],
         tools: ["Git", "Linux"]
     },
-    currentFocus: "Building AI-powered applications & Quantum Computing",
-    communities: ["Hz Knowledge Library", "APINN Lab"],
-    funFact: "I turn coffee ☕ into code 💻 and bugs 🐛 into features ✨"
+    currentFocus: "Building AI-powered applications & Physics",
+    communities: ["Quantum Transport Computing", "APINN Lab"],
+    funFact: "I turn beats 🎧 into flow 🌊 and silence 🔇 into symphonies 🎶"
 };
 
 console.log(`🎯 Mission: ${developer.currentFocus}`);
@@ -305,14 +305,12 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
 
 <!--START_SECTION:activity-->
 ```
-🎉 Contributed to Hz-Knowledge-Library/Machine-Learning-Basic
 🔧 Worked on brans-t/brans-t.github.io
-🚀 Contributed to amair-lab/MOF-discovery
 💡 Developed brans-t/Annotara (TypeScript)
 🐍 Contributed to brans-t/ThePKMer (Python)
-👥 Joined Hz Knowledge Library organization
-🌟 Joined Quantum Transport Computing organization
-💫 Joined NoosphereHub organization
+👥 Created Hz Knowledge Library organization
+🌟 Created Quantum Transport Computing organization
+💫 Created NoosphereHub organization
 ⚡ Active in 24+ other repositories
 ```
 <!--END_SECTION:activity-->

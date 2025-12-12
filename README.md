@@ -155,6 +155,23 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
 <!-- GitHub Stats Section -->
 <div align="center">
 
+<!-- Snake eating contribution graph -->
+<div align="center">
+
+# 🌐 NEURAL CODE INTERFACE 🌐
+```ascii
+╔═══════════════════════════════════════════╗
+║  SYSTEM ONLINE | TRACKING ACTIVE          ║
+║  USER: brans-t | ACCESS: GRANTED          ║
+╚═══════════════════════════════════════════╝
+```
+
+  <!-- <img src="https://raw.githubusercontent.com/brans-t/brans-t/output/github-snake-dark.svg" alt="Snake animation" /> -->
+  <img src="https://raw.githubusercontent.com/brans-t/brans-t/output/cyberpunk-blue.svg" alt="Cyberpunk Snake"/>
+
+  *「 WELCOME TO THE MATRIX 」*
+</div>
+
 ## 📊 GitHub Analytics
 
 <!-- Main Stats Cards - 使用备用实例 -->
@@ -424,10 +441,6 @@ I'm always excited to collaborate on interesting projects, discuss new technolog
 
 </div>
 
-<!-- Snake eating contribution graph -->
-<div align="center">
-  <img src="https://raw.githubusercontent.com/brans-t/brans-t/output/github-snake-dark.svg" alt="Snake animation" />
-</div>
 
 ---
 
@@ -435,22 +448,4 @@ I'm always excited to collaborate on interesting projects, discuss new technolog
   <sub>Built with ❤️ by <a href="https://github.com/brans-t">@brans-t</a></sub>
   <br/>
   <sub>Last updated: <i>Automatically via GitHub Actions</i></sub>
-</div>
-
-
-
-<div align="center">
-
-# 🌐 NEURAL CODE INTERFACE 🌐
-```ascii
-╔═══════════════════════════════════════════╗
-║  SYSTEM ONLINE | TRACKING ACTIVE          ║
-║  USER: brans-t | ACCESS: GRANTED          ║
-╚═══════════════════════════════════════════╝
-```
-
-<img src="https://raw.githubusercontent.com/brans-t/brans-t/output/cyberpunk-blue.svg" alt="Cyberpunk Snake" width="90%"/>
-
-*「 WELCOME TO THE MATRIX 」*
-
 </div>

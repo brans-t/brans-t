@@ -1,4 +1,4 @@
-name: 🚀 Generate Cyberpunk Snake
+name: 🐍 Generate Snake Animation
 
 on:
   schedule:
@@ -20,26 +20,30 @@ jobs:
       - name: 📥 Checkout
         uses: actions/checkout@v4
       
-      - name: 🐍 Generate cyberpunk snake animations
+      - name: 🐍 Generate snake animations
         uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
+            dist/github-snake.svg
             dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-light.svg?palette=github-light
             dist/cyberpunk-blue.svg?color_snake=#00FFFF&color_dots=#001a33,#003366,#0066cc,#00aaff,#00FFFF
             dist/cyberpunk-purple.svg?color_snake=#FF00FF&color_dots=#1a0033,#330066,#6600cc,#aa00ff,#FF00FF
             dist/matrix-green.svg?color_snake=#00FF00&color_dots=#001a00,#003300,#006600,#00cc00,#00FF00
             dist/neon-pink.svg?color_snake=#FF006E&color_dots=#330016,#66002d,#990044,#cc005b,#FF006E
             dist/electric-blue.svg?color_snake=#00D9FF&color_dots=#00262e,#004d5c,#00738a,#009ab8,#00D9FF
-            dist/toxic-green.svg?color_snake=#39FF14&color_dots=#0d3305,#1a660a,#26990f,#33cc14,#39FF14
-            dist/laser-red.svg?color_snake=#FF0040&color_dots=#33000d,#66001a,#990026,#cc0033,#FF0040
-            dist/hologram.svg?color_snake=#7B68EE&color_dots=#18153b,#302a77,#483fb3,#6054df,#7B68EE
       
-      - name: 🚀 Deploy
+      - name: 📊 Show build status
+        run: |
+          echo "✅ Snake animations generated!"
+          ls -lh dist/
+      
+      - name: 🚀 Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
-          commit_message: "🐍 Update cyberpunk snakes"
+          commit_message: "🐍 Update snake animations"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

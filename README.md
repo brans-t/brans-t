@@ -363,26 +363,31 @@ JavaScript   █░░░░░░░░░░░░░░░░░░░     6%
 ## 🎮 When I'm Not Coding...
 
 <table>
-  <tr>
-    <td>☕</td>
-    <td><b>Coffee Enthusiast</b></td>
-    <td>Exploring specialty beans</td>
-  </tr>
-  <tr>
-    <td>📚</td>
-    <td><b>Avid Reader</b></td>
-    <td>Sci-fi & Tech books</td>
-  </tr>
-  <tr>
-    <td>🎵</td>
-    <td><b>Music Lover</b></td>
-    <td>Lo-fi while coding</td>
-  </tr>
-  <tr>
-    <td>🎨</td>
-    <td><b>Digital Art</b></td>
-    <td>Generative art experiments</td>
-  </tr>
+  <tr>
+    <td>📚</td>
+    <td><b>Reading</b></td>
+    <td>Exploring Sci-fi, Physics & Math books</td>
+  </tr>
+  <tr>
+    <td>🎵</td>
+    <td><b>Music Appreciation</b></td>
+    <td>Listening to Lo-fi, Classical, or Rock</td>
+  </tr>
+  <tr>
+    <td>🎹</td>
+    <td><b>Playing Instruments</b></td>
+    <td>Practicing piano/guitar (练琴)</td>
+  </tr>
+  <tr>
+    <td>📸</td>
+    <td><b>Photography</b></td>
+    <td>Capturing landscapes and city views</td>
+  </tr>
+  <tr>
+    <td>🕹️</td>
+    <td><b>Gaming</b></td>
+    <td>Strategy and RPG titles</td>
+  </tr>
 </table>
 
 </div>

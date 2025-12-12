@@ -260,6 +260,10 @@ console.log(`🎯 Mission: ${developer.currentFocus}`);
 ### 🚀 Machine Learning Research
 [![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Hz-Knowledge-Library&repo=Machine-Learning-Basic&theme=radical&hide_border=true&bg_color=0D1117)](https://github.com/Hz-Knowledge-Library/Machine-Learning-Basic)
 
+<a href="https://github.com/Hz-Knowledge-Library/Machine-Learning-Basic" target="_blank">
+  <img src="https://socialify.git.ci/Hz-Knowledge-Library/Machine-Learning-Basic/image?language=1&name=1&owner=1&pattern=Formal&theme=Dark" alt="Machine Learning Basic Socialify Card" width="400"/>
+</a>
+
 **Technologies:** Python, TensorFlow, PyTorch  
 **Description:** Basic machine learning algorithms and implementations for research and education.
 

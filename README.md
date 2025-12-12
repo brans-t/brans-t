@@ -57,7 +57,7 @@ const developer = {
     role: "Full Stack Developer & AI Researcher",
     code: ["C", "Python", "Wolfram Mathematica", "Matlab", "Julia"],
     technologies: {
-        // frontend: ["React", "Next.js", "Vue.js", "Three.js", "Tailwind"],
+        // frontend: ["React", "Next.js", "Vue.js", "Three.js", "Tailwind"],           //learning
         backend: ["Django"],
         ai_ml: ["PyTorch", "Scikit-learn"],
         database: ["MongoDB"],

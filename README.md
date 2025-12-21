@@ -59,7 +59,7 @@ const developer = {
     technologies: {
         // frontend: ["React", "Next.js", "Vue.js", "Three.js", "Tailwind"],           //learning
         // backend: ["Django"],                                                        //learning
-        ai_ml: ["PyTorch", "Scikit-learn"],
+        AI_ml: ["PyTorch", "Scikit-learn"],
         // database: ["MongoDB"],
         cloud: ["Docker"],
         tools: ["Git", "Linux"]

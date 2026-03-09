@@ -18,8 +18,13 @@ def get_language_stats(username, token=None):
     url = f'https://api.github.com/users/{username}/repos'
     params = {'per_page': 100, 'type': 'owner'}
     
-    response = requests.get(url, headers=headers, params=params)
-    repos = response.json()
+    try:
+        response = requests.get(url, headers=headers, params=params)
+        response.raise_for_status()  # 检查请求是否成功
+        repos = response.json()
+    except requests.RequestException as e:
+        print(f"Error fetching repositories: {e}")
+        return []
     
     # 统计每种语言的字节数
     language_bytes = defaultdict(int)
@@ -29,11 +34,15 @@ def get_language_stats(username, token=None):
             # 获取每个仓库的语言统计
             lang_url = repo.get('languages_url')
             if lang_url:
-                lang_response = requests.get(lang_url, headers=headers)
-                if lang_response.status_code == 200:
+                try:
+                    lang_response = requests.get(lang_url, headers=headers)
+                    lang_response.raise_for_status()
                     languages = lang_response.json()
                     for lang, bytes_count in languages.items():
                         language_bytes[lang] += bytes_count
+                except requests.RequestException as e:
+                    print(f"Error fetching languages for repo {repo.get('name', 'unknown')}: {e}")
+                    continue
     
     # 计算总字节数
     total_bytes = sum(language_bytes.values())
@@ -70,10 +79,7 @@ def generate_skills_section(languages, max_items=10):
         # 百分比，右对齐
         percent_display = f"{percentage:>3.0f}%"
         
-        # 额外的视觉进度条
-        extra_bar = generate_progress_bar(percentage, 19)
-        
-        output += f"{lang_display} {bar}   {percent_display} {extra_bar}\n"
+        output += f"{lang_display} {bar}   {percent_display}\n"
     
     output += "```"
     return output

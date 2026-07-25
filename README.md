@@ -148,7 +148,18 @@ JavaScript   █░░░░░░░░░░░░░░░░░░░     6%
 
 <br/>
 
-V
+<!-- Recent GitHub Activity -->
+<div align="center">
+
+## ⚡ Recent GitHub Activity
+
+</div>
+
+<!--START_SECTION:activity-->
+<!--END_SECTION:activity-->
+
+<br/>
+
 <!-- <div align="center"> -->
 
 <!-- ## 📝 Latest Blog Posts -->

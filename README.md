@@ -157,6 +157,8 @@ Shell        ░░░░░░░░░░░░░░░░░░░░     0%
 </div>
 
 <!--START_SECTION:activity-->
+1. 🗣 Commented on [#37](https://github.com/AndreaFrederica/andrea-novel-helper/issues/37#issuecomment-5808934992) in [AndreaFrederica/andrea-novel-helper](https://github.com/AndreaFrederica/andrea-novel-helper)
+2. ❗ Opened issue [#37](https://github.com/AndreaFrederica/andrea-novel-helper/issues/37) in [AndreaFrederica/andrea-novel-helper](https://github.com/AndreaFrederica/andrea-novel-helper)
 <!--END_SECTION:activity-->
 
 <br/>
